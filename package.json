@@ -1,0 +1,48 @@
+{
+  "name": "cordova-plugin-pch-alipay",
+  "version": "1.0.0",
+  "description": "Cordova Plugin Alipay",
+  "cordova": {
+    "id": "cordova-plugin-pch-alipay",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pchliang/cordova-plugin-pch-alipay"
+  },
+  "bugs": {
+    "url": "https://github.com/pchliang/cordova-plugin-pch-alipay/issues"
+  },
+  "keywords": [
+    "cordova",
+    "alipay",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests"
+  },
+  "author": "pchliang",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      ">0.0.1": {
+        "cordova": ">6.1.0"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
